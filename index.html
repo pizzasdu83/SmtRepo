@@ -15,16 +15,9 @@
 		<meta property="og:type" content="website" />
 		<meta property="og:title" content="SaaS Jelbrek Repo" />
 		<meta property="og:description" content="Official Cydia &amp; Sileo repository for SaaS iOS :D" />
-		<meta property="og:url" content="https://pizzasdu83.github.io/SmtRepo/" />
-		<meta property="og:image" content="https://pizzasdu83.github.io/SmtRepo/images/header.png" />
+		<meta property="og:url" content="https://pizzasdu83.github.io/smtrepo/" />
+		<meta property="og:image" content="https://pizzasdu83.github.io/smtrepo/images/header.webp" />
 
-		<!-- Twitter Card Previews -->
-		<meta name="twitter:card" content="summary_large_image" />
-		<meta name="twitter:site" content="@nanerasingh" />
-		<meta name="twitter:creator" content="@nanerasingh" />
-		<meta name="twitter:title" content="Nanerasingh Repo — iOS Tweaks &amp; Developer Tools" />
-		<meta name="twitter:description" content="Official Cydia &amp; Sileo repository for Nanerasingh iOS tweaks including TheosManagerPro, Time, NetworkCCX, AutoScrollx, NCEffectsPro, and ScreenFreezeX." />
-		<meta name="twitter:image" content="https://pizzasdu83.github.io/SmtRepo/images/header.png" />
 		<!-- Theme Initialization (Instant Dark Mode Default) -->
 		<script>
 			(function() {
@@ -69,8 +62,8 @@
 				--title-color: #0056b3;
 				--badge-bg: #eef5fc;
 				--badge-color: #007aff;
-				--repo-box-bg: rgba(74, 144, 217, 0.08);
-				--repo-box-border: rgba(74, 144, 217, 0.25);
+				--repo-box-bg: rgba(170, 229, 164, 0.08);
+				--repo-box-border: rgba(170, 229, 164, 0.25);
 				--input-bg: #ffffff;
 				--input-border: #cbd5e1;
 				--header-border: #e2e8f0;
@@ -96,7 +89,7 @@
 				transform: translateX(-50%);
 				width: 900px;
 				height: 550px;
-				background: radial-gradient(circle, rgba(10, 132, 255, 0.16) 0%, rgba(94, 92, 230, 0.1) 45%, transparent 75%);
+				background: radial-gradient(circle, rgba(170, 229, 164, 0.16) 0%, rgba(170, 229, 164, 0.1) 45%, transparent 75%);
 				pointer-events: none;
 				z-index: 0;
 				filter: blur(70px);
@@ -209,15 +202,15 @@
 				max-width: 210px !important;
 				max-height: 210px !important;
 				object-fit: cover !important;
-				border-radius: 50% !important;
-				border: 3px solid rgba(10, 132, 255, 0.6) !important;
-				box-shadow: 0 0 30px rgba(10, 132, 255, 0.45), 0 10px 30px rgba(0, 0, 0, 0.35) !important;
+				border-radius: 15% 30% 15% 0% !important;
+				border: 3px solid rgba(170, 229, 164, 0.6) !important;
+				box-shadow: 0 0 30px rgba(170, 229, 164, 0.45), 0 10px 30px rgba(0, 0, 0, 0.35) !important;
 				transition: transform 0.3s ease, box-shadow 0.3s ease;
 			}
 
 			#banner .image.object img:hover {
 				transform: scale(1.04);
-				box-shadow: 0 0 45px rgba(10, 132, 255, 0.65), 0 12px 35px rgba(0, 0, 0, 0.4) !important;
+				box-shadow: 0 0 45px rgba(170, 229, 164, 0.65), 0 12px 35px rgba(0, 0, 0, 0.4) !important;
 			}
 
 			@media screen and (max-width: 980px) {
@@ -248,10 +241,10 @@
 			.repo-box {
 				background: var(--repo-box-bg) !important;
 				border: 1px solid var(--repo-box-border) !important;
-				border-radius: 16px;
+				border-radius: 30px;
 				padding: 24px;
 				margin: 24px 0;
-				box-shadow: 0 0 30px rgba(10, 132, 255, 0.15);
+				box-shadow: 0 0 30px rgba(170, 229, 164, 0.15);
 			}
 
 			.repo-url-container {
@@ -278,7 +271,7 @@
 			}
 
 			.copy-btn {
-				background: #007aff;
+				background: linear-gradient(45deg, #0000ff 0%, #ff0000 100%);
 				color: #fff !important;
 				border: none;
 				border-radius: 6px;
@@ -290,7 +283,8 @@
 			}
 
 			.copy-btn:hover {
-				background: #0056b3;
+				background: linear-gradient(45deg, #ff0000 0%, #0000ff 100%);
+				filter: blur(1px);
 			}
 
 			.pm-buttons {
@@ -298,6 +292,7 @@
 				flex-wrap: wrap;
 				gap: 12px;
 				margin-top: 16px;
+				color: #000000;
 			}
 
 			.pm-btn {
@@ -309,7 +304,7 @@
 				text-decoration: none;
 				font-weight: 600;
 				font-size: 14px;
-				color: #fff !important;
+				display: inline-block;
 				box-shadow: 0 2px 8px rgba(0,0,0,0.15);
 				transition: transform 0.15s, opacity 0.15s;
 			}
@@ -317,6 +312,7 @@
 			.pm-btn:hover {
 				transform: translateY(-2px);
 				opacity: 0.95;
+		 filter: blur(1px);
 			}
 
 			.pm-btn img {
@@ -325,9 +321,45 @@
 				object-fit: contain;
 			}
 
-			.pm-sileo { background: linear-gradient(135deg, #4A90D9, #007AFF); }
-			.pm-zebra { background: linear-gradient(135deg, #2D3748, #1A202C); }
-			.pm-cydia { background: linear-gradient(135deg, #C54432, #A02B1D); }
+			.pm-sileo { background-image:
+        linear-gradient(45deg, #0000ff 0%, #ff0000 100%),
+				      url("wa/sblurred.png");
+
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100% 100%, cover;
+    background-position: center, center;
+
+    background-clip: text, border-box;
+    -webkit-background-clip: text, border-box;
+
+    -webkit-text-fill-color: transparent;
+}
+			.pm-zebra { background-image:
+        linear-gradient(45deg, #0000ff 0%, #ff0000 100%),
+				      url("wa/zblurred.png");
+
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100% 100%, cover;
+    background-position: center, center;
+
+    background-clip: text, border-box;
+    -webkit-background-clip: text, border-box;
+
+    -webkit-text-fill-color: transparent;
+  }
+			.pm-cydia { background-image:
+        linear-gradient(45deg, #0000ff 0%, #ff0000 100%),
+				      url("wa/cblurred.png");
+
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100% 100%, cover;
+    background-position: center, center;
+
+    background-clip: text, border-box;
+    -webkit-background-clip: text, border-box;
+
+    -webkit-text-fill-color: transparent;
+			}
 			
 			/* Theme Toggle Header Button */
 			.theme-toggle-btn {
@@ -766,18 +798,18 @@
 								<p style="font-size: 13px; margin: 0 0 10px 0;">Tap your package manager below or copy the source URL:</p>
 								
 								<div class="repo-url-container">
-									<span class="repo-url-text" id="repo-url">https://pizzasdu83.github.io/SmtRepo/</span>
+									<span class="repo-url-text" id="repo-url">https://pizzasdu83.github.io/smtrepo/</span>
 									<button class="copy-btn" onclick="copyRepoUrl()">Copy URL</button>
 								</div>
 
 								<div class="pm-buttons">
-									<a href="sileo://source/https://pizzasdu83.github.io/SmtRepo/" class="pm-btn pm-sileo">
+									<a href="sileo://source/https://pizzasdu83.github.io/smtrepo/" class="pm-btn pm-sileo">
 										<img src="SileoIcon.png" alt="Sileo"> Add to Sileo
 									</a>
-									<a href="zbra://sources/add/https://pizzasdu83.github.io/SmtRepo/" class="pm-btn pm-zebra">
+									<a href="zbra://sources/add/https://pizzasdu83.github.io/smtrepo/" class="pm-btn pm-zebra">
 										<img src="images/Zebra.png" alt="Zebra"> Add to Zebra
 									</a>
-									<a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://pizzasdu83.github.io/SmtRepo/" class="pm-btn pm-cydia">
+									<a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://pizzasdu83.github.io/smtrepo/" class="pm-btn pm-cydia">
 										<img src="images/cydia.png" alt="Cydia"> Add to Cydia
 									</a>
 								</div>
@@ -1238,7 +1270,7 @@
 
 			// Copy repo URL helper
 			function copyRepoUrl() {
-				const url = "https://pizzasdu83.github.io/SmtRepo/";
+				const url = "https://pizzasdu83.github.io/smtrepo/";
 				navigator.clipboard.writeText(url).then(() => {
 					const btn = document.querySelector('.copy-btn');
 					const origText = btn.innerText;
