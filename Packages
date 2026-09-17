@@ -668,6 +668,7 @@ SHA256: 634dd9f67021ebcac599851269c1430eb6d87af379c1adff0670bf430463f10d
 Package: com.pizzasdu83.homebartint
 Name: Slippery Bar 
 Depends: mobilesubstrate, preferenceloader
+Icon: https://raw.githubusercontent.com/pizzasdu83/SlipperyBar/refs/heads/main/SlipperyBarIcon.png
 Description: Recolor the home bar (simple color and gradient) and more :)
 Maintainer: SaaS
 Author: SaaS
