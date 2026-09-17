@@ -1,2 +1,4 @@
-# nanerasingh.github.io
- nanerasingh.github.io
+# [https://pizzasdu83.github.io/smtrepo/](https://pizzasdu83.github.io/smtrepo/)
+
+
+this is my repo for my jailbreak tweaks :)
