@@ -8,5 +8,6 @@ Author: SaaS
 Section: Tweaks
 Architecture: iphoneos-arm64
 Version: 0.42.69
-Size: 788216
+Size: 788238
+SHA256: fa652de67f400ba3f86020d31126e4bbe51bc03940b4963f725a133fb93517a1
 Filename: pkgs/com.pizzasdu83.homebartint_0.42.69_iphoneos-arm64.deb
