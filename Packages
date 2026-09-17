@@ -666,7 +666,7 @@ SHA1: b2d1b341a96f7d75cb70e7f2285450bbd75fa7e6
 SHA256: 634dd9f67021ebcac599851269c1430eb6d87af379c1adff0670bf430463f10d
 
 Package: com.pizzasdu83.homebartint
-Name: NCEffectsPro
+Name: Slippery Bar 
 Depends: mobilesubstrate, preferenceloader
 Description: Recolor the home bar (simple color and gradient) and more :)
 Maintainer: SaaS
