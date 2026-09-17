@@ -665,6 +665,22 @@ MD5sum: b4bc503b162d3c99aa7dc15226d8c2ef
 SHA1: b2d1b341a96f7d75cb70e7f2285450bbd75fa7e6
 SHA256: 634dd9f67021ebcac599851269c1430eb6d87af379c1adff0670bf430463f10d
 
+Package: com.pizzasdu83.homebartint
+Name: NCEffectsPro
+Depends: mobilesubstrate, preferenceloader
+Description: Recolor the home bar (simple color and gradient) and more :)
+Maintainer: SaaS
+Author: SaaS
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 0.42.69
+Installed-Size: 769
+Filename: pkgs/com.pizzasdu83.homebartint_0.42.69_iphoneos-arm64.deb
+Size: 788032
+MD5sum: d9659130297721737ae8cfac269c86f1
+SHA1: 869b37154ecda8b1be8c39d7087d11d0742f8d92
+SHA256: 338fb5f777c33896d53da23b6a8a12e34a25217fbb818f650a0385a4a047b9e9
+
 Package: com.nanerasingh.nceffectspro
 Name: NCEffectsPro
 Depends: mobilesubstrate, preferenceloader
