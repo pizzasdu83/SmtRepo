@@ -1,6 +1,6 @@
 Package: com.pizzasdu83.homebartint
 Name: Slippery Bar 
-Depends: mobilesubstrate, preferenceloader
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader
 Icon: https://raw.githubusercontent.com/pizzasdu83/SlipperyBar/refs/heads/main/SlipperyBarIcon.png
 Description: Recolor the home bar (simple color and gradient) and more :)
 Maintainer: SaaS
@@ -9,5 +9,9 @@ Section: Tweaks
 Architecture: iphoneos-arm64
 Version: 0.42.69
 Size: 788238
+Installed-Size: 769
+SHA1: 4dbc5801718682e7c4224f886a087e32faa00e6d
 SHA256: fa652de67f400ba3f86020d31126e4bbe51bc03940b4963f725a133fb93517a1
+MD5sum: 0bbe41b3b558c62d9f7355448ba49b96
 Filename: pkgs/com.pizzasdu83.homebartint_0.42.69_iphoneos-arm64.deb
+Sileodepiction: https://raw.githubusercontent.com/pizzasdu83/ressources/refs/heads/main/repo/slipperybar/depiction.json
