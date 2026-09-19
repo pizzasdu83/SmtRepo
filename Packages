@@ -15,3 +15,21 @@ SHA256: fa652de67f400ba3f86020d31126e4bbe51bc03940b4963f725a133fb93517a1
 MD5sum: 0bbe41b3b558c62d9f7355448ba49b96
 Filename: pkgs/com.pizzasdu83.homebartint_0.42.69_iphoneos-arm64.deb
 Sileodepiction: https://raw.githubusercontent.com/pizzasdu83/ressources/refs/heads/main/repo/slipperybar/depiction.json
+
+Package: com.pixelomer.oneko
+Name: Syoboneko
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader
+Icon: https://raw.githubusercontent.com/pizzasdu83/syoboneko/refs/heads/main/syoboneko.png
+Description: Get a cute syobon flying around the screen :)
+Maintainer: SaaS
+Author: SaaS
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.2.5
+Size: 117 130
+Installed-Size: 116
+SHA1: 4a3988e6fc3d1ef875c50c29c4d68cb4ebcac37b
+SHA256: 430370e2f64f9432d705179efdb0974202a37f9e3964bbfe1445fa2678dcf494
+MD5sum: e39ab9658c981ddab964c736d6617943
+Filename: pkgs/com.pixelomer.oneko_1.2.5_iphoneos-arm64.deb
+Sileodepiction: https://raw.githubusercontent.com/pizzasdu83/ressources/refs/heads/main/repo/syoboneko/depiction.json
